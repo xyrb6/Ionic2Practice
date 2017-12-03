@@ -1,0 +1,149 @@
+<ion-header>
+  <ion-toolbar color="header-color">
+    <!--<ion-buttons start>-->
+    <ion-buttons left>
+      <button ion-button icon-only color="royal">
+        <ion-note>注册</ion-note>
+      </button>
+    </ion-buttons>
+
+    <ion-searchbar
+      placeholder="请输入基金代码/名称"
+      [(ngModel)]="myInput"
+      [showCancelButton]="shouldShowCancel"
+      (ionInput)="onInput($event)"
+      (ionCancel)="onCancel($event)">
+    </ion-searchbar>
+
+    <!--<ion-buttons end>-->
+    <ion-buttons right>
+      <button ion-button icon-only color="royal">
+        <!--<ion-icon name="contact-us"></ion-icon>-->
+        <img src="../../assets/icon/tab1-header-right.png">
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-color">
+  <div class="full-width-img">
+    <img src="../../assets/icon/tab1-pic1.png">
+  </div>
+
+  <p></p>
+
+  <div class="div-color">
+    <div class="row first-title">
+      <div class="col">
+        <img src="../../assets/icon/tab1-1.png">
+        <br>
+        <span>焦点基金</span>
+      </div>
+      <div class="col">
+        <img src="../../assets/icon/tab1-2.png">
+        <br>
+        <span>新人专享</span>
+      </div>
+      <div class="col">
+        <img src="../../assets/icon/tab1-3.png">
+        <br>
+        <span>投资温度计</span>
+      </div>
+      <div class="col">
+        <img src="../../assets/icon/tab1-4.png">
+        <br>
+        <span>自选基金</span>
+      </div>
+    </div>
+    <br>
+    <div class="full-width-img">
+      <img  src="../../assets/icon/tab1-tem.png">
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="div-color">
+    <div class="row second-title">
+      <div class="col title-div-left-style" col-3>
+        现金宝
+      </div>
+      <div class="col title-div-right-style" col-9>
+          <img src="../../assets/icon/tab1-light1.png">轻松起投
+          <img src="../../assets/icon/tab1-light2.png">实时现取
+          <img src="../../assets/icon/tab1-light3.png">安全保障
+      </div>
+    </div>
+
+    <div>
+      <div class="row flex_bottom">
+        <div class="col">
+          <ion-label style="width: 100%; font-size: large; color: #ff6401;">{{mmfInfo.rate}}%</ion-label>
+          <ion-label>
+            7日年化
+            <ion-note style="font-size: small;">{{mmfInfo.rateDate}}</ion-note>
+          </ion-label>
+        </div>
+        <div class="col">
+          <button ion-button outline color="button-color-orange">0费率购基</button>
+        </div>
+        <div class="col">
+          <button ion-button color="button-color-brown">立即充值</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="div-color">
+    <div class="row second-title">
+      <div class="col title-div-left-style">
+        热点产品
+      </div>
+      <div class="col title-div-right-style">
+        <ion-note>全部</ion-note>
+        <ion-icon name="arrow-forward"></ion-icon>
+      </div>
+    </div>
+
+    <br>
+    <div class="row top-border-line">
+      <div class="col flex_center" col-3>
+        <div class="cycle-title flex_center biggest color-orange">人气</div>
+      </div>
+      <div class="col" col-9>
+        <div class="row">
+          <div class="col big">核心成长</div>
+          <div class="col color-gray right">成立以来收益率</div>
+        </div>
+        <div class="row">
+          <div class="col color-gray">潜力股挖掘机</div>
+          <div class="col big color-orange right">137.55%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="div-color">
+    <div class="row second-title">
+      <div class="col title-div-left-style">
+        最新资讯
+      </div>
+      <div class="col title-div-right-style">
+        <ion-note>全部</ion-note>
+        <ion-icon name="arrow-forward"></ion-icon>
+      </div>
+    </div>
+
+    <br>
+    <div>
+      <div class="row top-border-line" *ngFor="let news of newses">
+        <div class="col flex_center color-gray" col-1><ion-icon name="radio-button-on"></ion-icon></div>
+        <div class="col no-wrap" col-11>{{news.newsTitle}}</div>
+      </div>
+    </div>
+  </div>
+</ion-content>

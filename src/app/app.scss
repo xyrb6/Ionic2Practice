@@ -14,3 +14,490 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.toolbar-titile {
+  font-weight: bold;
+  text-align: center;
+}
+
+.content-color {
+  background-color: lightgray;
+}
+
+.div-color {
+  background-color: #ffffff;
+}
+
+.flex_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_col_center{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex_bottom{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.big {
+  font-size: large;
+}
+
+.biggest {
+  font-size: 25px;
+}
+
+.small {
+  font-size: small;
+}
+
+.color-gray {
+  color: #7B7F7C;
+}
+
+.color-orange {
+  color: color($colors, hot);
+}
+
+.color-brown {
+  color: color($colors, button);
+}
+
+//=============tabs-page
+//----------home
+.ion-ios-tab-home {
+  content: url("../assets/icon/tab/tab1_.png");
+}
+
+.ion-ios-tab-home-outline {
+  content: url("../assets/icon/tab/tab1.png");
+}
+
+.tabs-md .tab-button[aria-selected=true] .ion-md-tab-home {
+  content: url("../assets/icon/tab/tab1_.png");
+}
+
+.tabs-md .tab-button[aria-selected=false] .ion-md-tab-home {
+  content: url("../assets/icon/tab/tab1.png");
+}
+
+//----------fund
+  .ion-ios-tab-fund {
+    content: url("../assets/icon/tab/tab2_.png");
+  }
+
+  .ion-ios-tab-fund-outline {
+    content: url("../assets/icon/tab/tab2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab-fund {
+    content: url("../assets/icon/tab/tab2_.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab-fund {
+    content: url("../assets/icon/tab/tab2.png");
+  }
+
+//----------asset
+  .ion-ios-tab-asset {
+    content: url("../assets/icon/tab/tab3_.png");
+  }
+
+  .ion-ios-tab-asset-outline {
+    content: url("../assets/icon/tab/tab3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab-asset {
+    content: url("../assets/icon/tab/tab3_.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab-asset {
+    content: url("../assets/icon/tab/tab3.png");
+  }
+
+//----------person
+  .ion-ios-tab-person {
+    content: url("../assets/icon/tab/tab4_.png");
+  }
+
+  .ion-ios-tab-person-outline {
+    content: url("../assets/icon/tab/tab4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab-person {
+    content: url("../assets/icon/tab/tab4_.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab-person {
+    content: url("../assets/icon/tab/tab4.png");
+  }
+
+//=============asset-page
+//---------------------------tab3-1
+  .ion-ios-tab3-1 {
+    content: url("../assets/icon/tab3-1.png");
+  }
+
+  .ion-ios-tab-tab3-1-outline {
+    content: url("../assets/icon/tab3-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab3-1 {
+    content: url("../assets/icon/tab3-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab3-1 {
+    content: url("../assets/icon/tab3-1.png");
+  }
+  //---------------------------tab3-2
+  .ion-ios-tab3-2 {
+    content: url("../assets/icon/tab3-2.png");
+  }
+
+  .ion-ios-tab-tab3-2-outline {
+    content: url("../assets/icon/tab3-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab3-2 {
+    content: url("../assets/icon/tab3-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab3-2 {
+    content: url("../assets/icon/tab3-2.png");
+  }
+  //---------------------------tab3-3
+  .ion-ios-tab3-3 {
+    content: url("../assets/icon/tab3-3.png");
+  }
+
+  .ion-ios-tab-tab3-3-outline {
+    content: url("../assets/icon/tab3-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab3-3 {
+    content: url("../assets/icon/tab3-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab3-3 {
+    content: url("../assets/icon/tab3-3.png");
+  }
+  //---------------------------tab3-4
+  .ion-ios-tab3-4 {
+    content: url("../assets/icon/tab3-4.png");
+  }
+
+  .ion-ios-tab-tab3-4-outline {
+    content: url("../assets/icon/tab3-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab3-4 {
+    content: url("../assets/icon/tab3-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab3-4 {
+    content: url("../assets/icon/tab3-4.png");
+  }
+
+  //=============person-page
+  //---------------------------tab4-1
+  .ion-ios-tab4-1 {
+    content: url("../assets/icon/tab4-1.png");
+  }
+
+  .ion-ios-tab-tab4-1-outline {
+    content: url("../assets/icon/tab4-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-1 {
+    content: url("../assets/icon/tab4-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-1 {
+    content: url("../assets/icon/tab4-1.png");
+  }
+  //---------------------------tab4-2
+  .ion-ios-tab4-2 {
+    content: url("../assets/icon/tab4-2.png");
+  }
+
+  .ion-ios-tab-tab4-2-outline {
+    content: url("../assets/icon/tab4-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-2 {
+    content: url("../assets/icon/tab4-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-2 {
+    content: url("../assets/icon/tab4-2.png");
+  }
+  //---------------------------tab4-3
+  .ion-ios-tab4-3 {
+    content: url("../assets/icon/tab4-3.png");
+  }
+
+  .ion-ios-tab-tab4-3-outline {
+    content: url("../assets/icon/tab4-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-3 {
+    content: url("../assets/icon/tab4-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-3 {
+    content: url("../assets/icon/tab4-3.png");
+  }
+  //---------------------------tab4-4
+  .ion-ios-tab4-4 {
+    content: url("../assets/icon/tab4-4.png");
+  }
+
+  .ion-ios-tab-tab4-4-outline {
+    content: url("../assets/icon/tab4-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-4 {
+    content: url("../assets/icon/tab4-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-4 {
+    content: url("../assets/icon/tab4-4.png");
+  }
+  //---------------------------tab4-5
+  .ion-ios-tab4-5 {
+    content: url("../assets/icon/tab4-5.png");
+  }
+
+  .ion-ios-tab-tab4-5-outline {
+    content: url("../assets/icon/tab4-5.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-5 {
+    content: url("../assets/icon/tab4-5.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-5 {
+    content: url("../assets/icon/tab4-5.png");
+  }
+  //---------------------------tab4-6
+  .ion-ios-tab4-6 {
+    content: url("../assets/icon/tab4-6.png");
+  }
+
+  .ion-ios-tab-tab4-6-outline {
+    content: url("../assets/icon/tab4-6.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-6 {
+    content: url("../assets/icon/tab4-6.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-6 {
+    content: url("../assets/icon/tab4-6.png");
+  }
+  //---------------------------tab4-7
+  .ion-ios-tab4-7 {
+    content: url("../assets/icon/tab4-7.png");
+  }
+
+  .ion-ios-tab-tab4-7-outline {
+    content: url("../assets/icon/tab4-7.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-7 {
+    content: url("../assets/icon/tab4-7.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-7 {
+    content: url("../assets/icon/tab4-7.png");
+  }
+  //---------------------------tab4-8
+  .ion-ios-tab4-8 {
+    content: url("../assets/icon/tab4-8.png");
+  }
+
+  .ion-ios-tab-tab4-8-outline {
+    content: url("../assets/icon/tab4-8.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab4-8 {
+    content: url("../assets/icon/tab4-8.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab4-8 {
+    content: url("../assets/icon/tab4-8.png");
+  }
+
+//=============home-page
+  //---------------------------contact-us
+  .ion-ios-contact-us {
+    content: url("../assets/icon/tab1-header-right.png");
+  }
+
+  .ion-ios-tab-contact-us-outline {
+    content: url("../assets/icon/tab1-header-right.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-contact-us {
+    content: url("../assets/icon/tab1-header-right.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-contact-us {
+    content: url("../assets/icon/tab1-header-right.png");
+  }
+  //---------------------------tab1-pic1
+  .ion-ios-tab1-pic1 {
+    content: url("../assets/icon/tab1-pic1.png");
+  }
+
+  .ion-ios-tab-tab1-pic1-outline {
+    content: url("../assets/icon/tab1-pic1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-pic1 {
+    content: url("../assets/icon/tab1-pic1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-pic1 {
+    content: url("../assets/icon/tab1-pic1.png");
+  }
+  //---------------------------tab1-tem
+  .ion-ios-tab1-tem {
+    content: url("../assets/icon/tab1-tem.png");
+  }
+
+  .ion-ios-tab-tab1-tem-outline {
+    content: url("../assets/icon/tab1-tem.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-tem {
+    content: url("../assets/icon/tab1-tem.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-tem {
+    content: url("../assets/icon/tab1-tem.png");
+  }
+  //---------------------------tab1-1
+  .ion-ios-tab1-1 {
+    content: url("../assets/icon/tab1-1.png");
+  }
+
+  .ion-ios-tab-tab1-1-outline {
+    content: url("../assets/icon/tab1-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-1 {
+    content: url("../assets/icon/tab1-1.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-1 {
+    content: url("../assets/icon/tab1-1.png");
+  }
+
+  //---------------------------tab1-2
+  .ion-ios-tab1-2 {
+    content: url("../assets/icon/tab1-2.png");
+  }
+
+  .ion-ios-tab-tab1-2-outline {
+    content: url("../assets/icon/tab1-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-2 {
+    content: url("../assets/icon/tab1-2.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-2 {
+    content: url("../assets/icon/tab1-2.png");
+  }
+  //---------------------------tab1-3
+  .ion-ios-tab1-3 {
+    content: url("../assets/icon/tab1-3.png");
+  }
+
+  .ion-ios-tab-tab1-3-outline {
+    content: url("../assets/icon/tab1-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-3 {
+    content: url("../assets/icon/tab1-3.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-3 {
+    content: url("../assets/icon/tab1-3.png");
+  }
+
+  //---------------------------tab1-4
+  .ion-ios-tab1-4 {
+    content: url("../assets/icon/tab1-4.png");
+  }
+
+  .ion-ios-tab-tab1-4-outline {
+    content: url("../assets/icon/tab1-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=true] .ion-md-tab1-4 {
+    content: url("../assets/icon/tab1-4.png");
+  }
+
+  .tabs-md .tab-button[aria-selected=false] .ion-md-tab1-4 {
+    content: url("../assets/icon/tab1-4.png");
+  }
+
+//---------------------------tab1-light1
+.ion-ios-tab1-light1 {
+  content: url("../assets/icon/tab1-light1.png");
+}
+
+.ion-ios-tab-tab1-light1-outline {
+  content: url("../assets/icon/tab1-light1.png");
+}
+
+.tabs-md .tab-button[aria-selected=true] .ion-md-tab1-light1 {
+  content: url("../assets/icon/tab1-light1.png");
+}
+
+.tabs-md .tab-button[aria-selected=false] .ion-md-tab1-light1 {
+  content: url("../assets/icon/tab1-light1.png");
+}
+//---------------------------tab1-light2
+.ion-ios-tab1-light2 {
+  content: url("../assets/icon/tab1-light2.png");
+}
+
+.ion-ios-tab-tab1-light2-outline {
+  content: url("../assets/icon/tab1-light2.png");
+}
+
+.tabs-md .tab-button[aria-selected=true] .ion-md-tab1-light2 {
+  content: url("../assets/icon/tab1-light2.png");
+}
+
+.tabs-md .tab-button[aria-selected=false] .ion-md-tab1-light2 {
+  content: url("../assets/icon/tab1-light2.png");
+}
+
+//---------------------------tab1-light3
+.ion-ios-tab1-light3 {
+  content: url("../assets/icon/tab1-light3.png");
+}
+
+.ion-ios-tab-tab1-light3-outline {
+  content: url("../assets/icon/tab1-light3.png");
+}
+
+.tabs-md .tab-button[aria-selected=true] .ion-md-tab1-light3 {
+  content: url("../assets/icon/tab1-light3.png");
+}
+
+.tabs-md .tab-button[aria-selected=false] .ion-md-tab1-light3 {
+  content: url("../assets/icon/tab1-light3.png");
+}
+
+//=============fund-page

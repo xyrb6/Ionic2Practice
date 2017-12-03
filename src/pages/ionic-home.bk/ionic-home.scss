@@ -1,0 +1,53 @@
+page-ionic-home {
+
+  .full-width-img {
+    div {
+      width: 100%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .title-div {
+
+    height:20px;
+
+    .left-div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      border-left-style: solid;
+      border-left-width: thick;
+      border-left-color: color($colors, header-color);
+    }
+
+    .right-div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  }
+
+  .first-child-div {
+
+    text-align: center;
+
+    img {
+      width: 50px;
+      height:50px;
+    }
+  }
+
+  .second-child-div {
+     color: color($colors,color-lightgray);
+
+    img {
+        width: 7%;
+      }
+    }
+  }
+}

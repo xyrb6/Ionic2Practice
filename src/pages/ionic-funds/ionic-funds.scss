@@ -1,0 +1,43 @@
+page-ionic-funds {
+
+  .fund_menu {
+    text-align: center;
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .good {
+    width: 100%;
+    height:auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    img {
+      width:10%;
+      height: auto;
+    }
+    span {
+      font-size: large;
+    }
+  }
+
+  .top-line {
+    margin-top: 5px;
+    border-top-color: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+
+  .detail {
+    img {
+      width:50%;
+      height:auto;
+    }
+
+    .right {
+      text-align: right;
+    }
+  }
+}
